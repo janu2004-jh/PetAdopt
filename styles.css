@@ -1,0 +1,176 @@
+/* General Styles */
+
+body {
+  background-color:rgba(0,0,0,0.5);
+  background-image: url("https://d2zp5xs5cp8zlg.cloudfront.net/image-54776-800.jpg");
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #e17267;
+  color: rgb(8, 6, 6);
+  width: 100%;
+  top:0;
+
+}
+h1{
+  text-align: center;
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 26px;
+  text-align: center;
+}
+
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 150px 20px;
+  background: url('https://source.unsplash.com/1600x900/?dogs,cats') no-repeat center;
+  background-size: cover;
+  color: rgb(237, 228, 228);
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+
+.hero p {
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #ffcc00;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #ff9900;
+}
+
+/* About Section */
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background: rgb(233, 228, 228);
+  font-size:20px;
+  color: #222;
+}
+h2{
+  color: #222;
+}
+
+/* Adopt Section */
+.adopt {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.pet-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pet-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+  
+}
+
+.pet-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.adopt-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #ff5c5c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  
+}
+
+.adopt-btn:hover {
+  background-color: #d9534f;
+}
+/* Contact Section */
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.contact input, .contact textarea {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  padding: 10px;
+  background: #ff6f61;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
